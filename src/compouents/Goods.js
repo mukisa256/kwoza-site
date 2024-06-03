@@ -1,48 +1,59 @@
-import "./GoodsStyle.css"
-import GoodsData from "./GoodsData"
-import Manager1 from "../asserts/images.jpg"
-import Manager2 from "../asserts/yt.jpg"
-import Manager3 from "../asserts/gallery2.jpg"
+import "./GoodsStyle.css";
+import GoodsData from "./GoodsData";
+import Manager1 from "../asserts/images.jpg";
+import Manager2 from "../asserts/yt.jpg";
+import Manager3 from "../asserts/gallery2.jpg";
 
-
-function Goods (){
-    return(
-        <div className="founders">
-        <h1>Products</h1>
-        {/* <p>This is the display of our products</p> */}
-        <div className="foldercard">
-            <GoodsData
-            image ={Manager1}
-            heading = "independent"
-            text = "SOAP is a messaging protocol for exchanging information between two computers based on XML over the internet. SOAP messages are purely written in XML which is why they are platform and language independent. A SOAP message contains: An Envelope that indicates the start and end of the message"
-            />
-            <GoodsData
-            image ={Manager2}
-            heading = "independent"
-            text = "SOAP is a messaging protocol for exchanging information between two computers based on XML over the internet. SOAP messages are purely written in XML which is why they are platform and language independent. A SOAP message contains: An Envelope that indicates the start and end of the message"
-            />
-            <GoodsData
-            image ={Manager3}
-            heading = "independent"
-            text = "SOAP is a messaging protocol for exchanging information between two computers based on XML over the internet. SOAP messages are purely written in XML which is why they are platform and language independent. A SOAP message contains: An Envelope that indicates the start and end of the message"
-            />
-            <GoodsData
-            image ={Manager3}
-            heading = "independent"
-            text = "SOAP is a messaging protocol for exchanging information between two computers based on XML over the internet. SOAP messages are purely written in XML which is why they are platform and language independent. A SOAP message contains: An Envelope that indicates the start and end of the message"
-            />
-            <GoodsData
-            image ={Manager3}
-            heading = "independent"
-            text = "SOAP is a messaging protocol for exchanging information between two computers based on XML over the internet. SOAP messages are purely written in XML which is why they are platform and language independent. A SOAP message contains: An Envelope that indicates the start and end of the message"
-            />
-            <GoodsData
-            image ={Manager3}
-            heading = "independent"
-            text = "SOAP is a messaging protocol for exchanging information between two computers based on XML over the internet. SOAP messages are purely written in XML which is why they are platform and language independent. A SOAP message contains: An Envelope that indicates the start and end of the message"
-            />
+function Goods() {
+    return (
+        <div className="goods">
+            <h1 className="goods-title">Products</h1>
+            <div className="goods-grid">
+                <GoodsData
+                    image={Manager1}
+                    heading="Independent Product 1"
+                    text="kwoza pure Delight"
+                    price="UGX 1000"
+                    rating={4}
+                />
+                <GoodsData
+                    image={Manager2}
+                    heading="Independent Product 2"
+                    text="Kwoza Soft Serenade."
+                    price="UGX 1000"
+                    rating={5}
+                />
+                <GoodsData
+                    image={Manager3}
+                    heading="Independent Product 3"
+                    text="Kwoza multiclean."
+                    price="UGX 1000"
+                    rating={3}
+                />
+                <GoodsData
+                    image={Manager1}
+                    heading="Independent Product 4"
+                    text="Kwoza laundryBarSoap."
+                    price="UGX 1000"
+                    rating={4}
+                />
+                <GoodsData
+                    image={Manager2}
+                    heading="Independent Product 5"
+                    text="Kwoza cleanwave detergent."
+                    price="UGX 1000"
+                    rating={5}
+                />
+                <GoodsData
+                    image={Manager3}
+                    heading="Independent Product 6"
+                    text="Kwoza SoapSurge."
+                    price="UGX 1000"
+                    rating={2}
+                />
+            </div>
         </div>
-    </div>
-    )
+    );
 }
-export default Goods
+
+export default Goods;
