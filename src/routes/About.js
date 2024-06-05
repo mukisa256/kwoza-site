@@ -3,6 +3,7 @@ import Navbar from "../compouents/Navbar"
 import Footer from "../compouents/footer";
 import AboutImg from "../asserts/download.jpg"
 import AboutUs from "../compouents/AboutUs";
+
 function About (){
     return(
         <>
@@ -14,7 +15,9 @@ function About (){
         btnClass ="hide" 
         />
         <AboutUs/>
+       
         <Footer/>
+       
         </>
     )
 }
