@@ -50,6 +50,7 @@ const products = [
 
   return (
     <div className="slider">
+      <h2>Recent Products</h2>
       <div className="Slides" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
         {products.map((product, index) => (
           <div key={product.id} className="slide1">
