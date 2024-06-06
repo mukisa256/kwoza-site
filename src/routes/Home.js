@@ -6,6 +6,8 @@ import Wording from "../compouents/wroding";
 import AboutImg from "../asserts/download.jpg"
 import ContactFom from "../compouents/contactform";
 import AboutUs from "../compouents/AboutUs";
+import HomeSlider from "../compouents/homeSlider";
+import Testmoralial from "../compouents/testmoriales";
 function Home (){
     return(
         <>
@@ -24,7 +26,9 @@ function Home (){
     />
         <Wording/>
         <Folder/>
+        <HomeSlider/>
         <AboutUs/>
+        <Testmoralial/>
         <ContactFom/>
         <Footer/>
         </>
