@@ -29,6 +29,7 @@ function Home (){
         <HomeSlider/>
         <AboutUs/>
         <Testmoralial/>
+        <h1 style={{textAlign:"center",marginTop:"70px"}}>Contact us</h1>
         <ContactFom/>
         <Footer/>
         </>
